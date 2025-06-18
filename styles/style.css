@@ -141,11 +141,7 @@ ol {
   color: #fff;
   display: block;
   cursor: pointer;
-}
-
-.content__card-link:hover {
-  text-decoration: underline;
-  color: #fff;
+  background-color: transparent;
 }
 
 .content__video-card-description {
@@ -301,7 +297,6 @@ ol {
 
 .button:active {
   background-color: #545050;
-  color: #fff;
 }
 
 .button:focus-visible {
@@ -320,11 +315,10 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline;
-  color: #fff;
 }
 
-.content__card-link:active {
-  background-color: #1b1919;
+.content__card-link:active { 
+  background-color: #545050;
 }
 
 .content__card-link:focus {
